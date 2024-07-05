@@ -1,0 +1,10 @@
+- file: q1.txt
+  voice: en-US-Studio-Q
+- file: a1.txt
+  voice: en-US-Studio-O
+- file: q2.txt
+  voice: en-US-Studio-Q
+- file: a2.txt
+  voice: en-US-Studio-O
+- file: q3.txt
+  voice: en-US-Studio-Q

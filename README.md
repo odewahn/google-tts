@@ -6,6 +6,8 @@ This is a simple example of how to use google text-to-speech API. Here are some 
 
 - https://codelabs.developers.google.com/codelabs/cloud-text-speech-python3#0
 
+- https://github.com/jiaaro/pydub/?tab=readme-ov-file
+
 # Authentication
 
 You'll need service account credentials saved in a `.json` file, and then a `.env` file that specifices where to find it:

@@ -1,2 +1,4 @@
 google-cloud-texttospeech
 python-dotenv
+pydub
+pyyaml

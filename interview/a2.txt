@@ -1,0 +1,5 @@
+Yes, both get_embedding and cosine_similarity play important roles in a semantic search application. 
+
+The get_embedding function is essentially tasked with finding or creating the numerical vector that represents a given word. This might involve reaching out to a model like OpenAI's Ada, which has been trained on a vast corpus of text and can generate a word's embedding.
+
+Once you have embeddings for various words, you need a way to compare them to figure out which ones are most similar to the word a user inputted. That's where cosine_similarity comes in. Cosine similarity measures the cosine of the angle between two vectors. When two vectors point in roughly the same direction, the cosine of the angle between them is close to 1, indicating high similarity. In contrast, if the cosine is close to -1, the vectors point in nearly opposite directions, indicating they are very dissimilar.

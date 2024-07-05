@@ -1,0 +1,5 @@
+In the context of OpenAI's API, a token is essentially a unit of text. A token can be as short as one character or as long as one word. For instance, the word "ChatGPT" counts as one token, but "OpenAI" would be counted as two tokens: "Open" and "AI".
+
+The reason we talk about reducing token usage is because when you make requests to the API, you're charged per token. Therefore, keeping token usage down can be an effective way to manage costs.
+
+In the application setup mentioned here, using local files for data handling can reduce the number of tokens sent to and processed by the API. For instance, using pre-saved embeddings for common words in these local files means we save tokens sending those words to be embedded.
